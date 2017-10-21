@@ -1,4 +1,4 @@
-package gr.charos.BubbleLang;
+package gr.charos.bubbletalk;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
