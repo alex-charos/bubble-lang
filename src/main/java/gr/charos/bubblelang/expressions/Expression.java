@@ -1,5 +1,7 @@
 package gr.charos.bubblelang.expressions;
 
-public interface Expression {
+import gr.charos.bubblelang.model.ExecutionResult;
 
+public interface Expression {
+	public abstract ExecutionResult evaluate();
 }

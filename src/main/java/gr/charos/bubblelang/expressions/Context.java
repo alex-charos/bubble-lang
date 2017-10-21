@@ -1,5 +1,9 @@
 package gr.charos.bubblelang.expressions;
 
-public class Context implements Expression {
+import gr.charos.bubblelang.model.ExecutionResult;
+
+public abstract class Context {
+
+	public abstract ExecutionResult getModel();
 
 }
