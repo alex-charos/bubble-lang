@@ -1,5 +1,6 @@
 package gr.charos.bubblelang.expressions;
 
+import gr.charos.bubblelang.commands.Command;
 import gr.charos.bubblelang.core.Heap;
 import gr.charos.bubblelang.model.ExecutionResult;
 

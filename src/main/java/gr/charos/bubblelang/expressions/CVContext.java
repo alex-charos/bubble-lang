@@ -6,14 +6,20 @@ public class CVContext extends Context {
 
 	 
 	
-	public CVContext(ExecutionResult model) {
-		super(model);
+	public CVContext(String name, ExecutionResult model) {
+		super(name, model);
 	}
 
 	@Override
 	public ExecutionResult getModel() {
 		return model;
 				
+	}
+
+	@Override
+	public String getName() {
+		
+		return name ;
 	}
 
 	 
